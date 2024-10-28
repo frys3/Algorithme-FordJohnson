@@ -9,7 +9,14 @@ This is a C++ project that implements a sorting algorithm using a divide-and-con
 4. Inserting the Smallest Element's Pair: The element paired with the first and smallest element is inserted at the start of the sorted list.
 5. Final Insertion: The remaining elements are inserted into the sorted list, one at a time, following a specific order based on the Fibonacci sequence and using binary search to determine each insertion position.
 
+## Installation
+Clone the repository.
 
+To perform the initial setup of the project, you can run the following commands:
+
+```bash
+make
+```
 Users can pass the list of integers via command-line arguments:
 ```Bash
 ./PmergeMe `shuf -i 1-1000 -n 3000 | tr "\n" " "`)
